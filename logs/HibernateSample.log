@@ -1,0 +1,589 @@
+INFO - About to create a Hibernate Session
+INFO - About to create a Hibernate Session
+INFO - About to create a Hibernate Session
+INFO - About to create a Hibernate Session
+INFO - About to create a Hibernate Session
+INFO - About to create a Hibernate Session
+INFO - About to create a Hibernate Session
+INFO - About to create a Hibernate Session
+INFO - About to create a Hibernate Session
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - About to create a Hibernate Session
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - About to create a Hibernate Session
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - About to create a Hibernate Session
+INFO - About to save the greeting!
+INFO - About to create a Hibernate Session
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - About to create a Hibernate Session
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - About to create a Hibernate Session
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - About to create a Hibernate Session
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - About to retrieve all greetings!
+INFO - com.hibernatesample.model.value.Greetings@1de17f4
+INFO - com.hibernatesample.model.value.Greetings@1f6ba0f
+INFO - com.hibernatesample.model.value.Greetings@18d9850
+INFO - About to create a Hibernate Session
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - About to retrieve all greetings!
+INFO - com.hibernatesample.model.value.Greetings@1de17f4
+INFO - com.hibernatesample.model.value.Greetings@1f6ba0f
+INFO - com.hibernatesample.model.value.Greetings@1313906
+INFO - com.hibernatesample.model.value.Greetings@18d9850
+INFO - Greeting saved. Check database for data!
+INFO - About to create a Hibernate Session
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - About to retrieve all greetings!
+INFO - Greetings[messageText = Hello World!!]
+INFO - Greetings[messageText = Hello World!!]
+INFO - Greetings[messageText = Hello World!!]
+INFO - Greetings[messageText = Hello World!!]
+INFO - Greetings[messageText = Hello World!!]
+INFO - Greeting saved. Check database for data!
+INFO - About to create a Hibernate Session
+INFO - ---------------------------
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - ---------------------------
+INFO - About to retrieve all greetings!
+INFO - Greetings[messageText = Hello World!!]
+INFO - Greetings[messageText = Hello World!!]
+INFO - Greetings[messageText = Hello World!!]
+INFO - Greetings[messageText = Hello World!!]
+INFO - Greetings[messageText = Hello World!!]
+INFO - Greetings[messageText = Hello World!!]
+INFO - Greeting saved. Check database for data!
+INFO - ---------------------------
+INFO - About to create a Hibernate Session
+INFO - ---------------------------
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - ---------------------------
+INFO - About to retrieve all greetings!
+INFO - Greetings[messageText = Hello World!!]
+INFO - Greetings[messageText = Hello World!!]
+INFO - Greetings[messageText = Hello World!!]
+INFO - Greetings[messageText = Hello World!!]
+INFO - Greetings[messageText = Hello World!!]
+INFO - Greetings[messageText = Hello World!!]
+INFO - Greetings[messageText = Hello World!!]
+INFO - ---------------------------
+INFO - About to create a Hibernate Session
+INFO - About to create a Hibernate Session
+INFO - About to create a Hibernate Session
+INFO - About to create a Hibernate Session
+INFO - About to create a Hibernate Session
+INFO - About to create a Hibernate Session
+INFO - About to create a Hibernate Session
+INFO - About to create a Hibernate Session
+INFO - ---------------------------
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - ---------------------------
+INFO - About to retrieve all greetings!
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - ---------------------------
+INFO - About to create a Hibernate Session
+INFO - ---------------------------
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - ---------------------------
+INFO - About to retrieve all greetings!
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - ---------------------------
+INFO - About to update Greetings with generated Id 1!
+INFO - About to create a Hibernate Session
+INFO - ---------------------------
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - ---------------------------
+INFO - About to retrieve all greetings!
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - ---------------------------
+INFO - About to update Greetings with generated Id 1!
+INFO - ---------------------------
+INFO - ---------------------------
+INFO - About to retrieve all greetings after previous update!
+INFO - Greetings[greetingText = Hello Homer!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - About to create a Hibernate Session
+INFO - ---------------------------
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - ---------------------------
+INFO - About to retrieve all greetings!
+INFO - Greetings[greetingText = Hello Homer!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - ---------------------------
+INFO - About to update Greetings with generated Id 1!
+INFO - ---------------------------
+INFO - About to retrieve all greetings after previous update!
+INFO - Greetings[greetingText = Hello Homer!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - ---------------------------
+INFO - About to create a Hibernate Session
+INFO - ---------------------------
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - ---------------------------
+INFO - About to retrieve all greetings!
+INFO - Greetings[greetingText = Hello Homer!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World, its Mon Jul 24 16:34:33 MDT 2006]
+INFO - ---------------------------
+INFO - About to update Greetings with generated Id 1!
+INFO - ---------------------------
+INFO - About to retrieve all greetings after previous update!
+INFO - Greetings[greetingText = Hello Homer!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World, its Mon Jul 24 16:34:33 MDT 2006]
+INFO - ---------------------------
+INFO - About to create a Hibernate Session
+INFO - ---------------------------
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - ---------------------------
+INFO - About to retrieve all greetings!
+INFO - Greetings[greetingText = Hello World, its Mon Jul 24 16:35:05 MDT 2006]
+INFO - ---------------------------
+INFO - About to update Greetings with generated Id 1!
+INFO - ---------------------------
+INFO - About to retrieve all greetings after previous update!
+INFO - Greetings[greetingText = Hello Homer!]
+INFO - ---------------------------
+INFO - About to create a Hibernate Session
+INFO - ---------------------------
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - ---------------------------
+INFO - About to retrieve all greetings!
+INFO - Greetings[greetingText = Hello World, its Mon Jul 24 16:36:28 MDT 2006]
+INFO - About to create a Hibernate Session
+INFO - ---------------------------
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - ---------------------------
+INFO - About to retrieve all greetings!
+INFO - Greetings[greetingText = Hello World, its Mon Jul 24 16:36:28 MDT 2006]
+INFO - Greetings[greetingText = Hello World, its Mon Jul 24 16:36:38 MDT 2006]
+INFO - About to create a Hibernate Session
+INFO - ---------------------------
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - ---------------------------
+INFO - About to retrieve all greetings!
+INFO - Greetings[greetingText = Hello World, its Mon Jul 24 16:36:28 MDT 2006]
+INFO - Greetings[greetingText = Hello World, its Mon Jul 24 16:36:38 MDT 2006]
+INFO - Greetings[greetingText = Hello World, its Mon Jul 24 16:36:51 MDT 2006]
+INFO - About to create a Hibernate Session
+INFO - ---------------------------
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - ---------------------------
+INFO - About to retrieve all greetings!
+INFO - Greetings[greetingText = Hello World, its Mon Jul 24 16:36:28 MDT 2006]
+INFO - Greetings[greetingText = Hello World, its Mon Jul 24 16:36:38 MDT 2006]
+INFO - Greetings[greetingText = Hello World, its Mon Jul 24 16:36:51 MDT 2006]
+INFO - Greetings[greetingText = Hello World, its Mon Jul 24 16:37:02 MDT 2006]
+INFO - About to create a Hibernate Session
+INFO - Thu Oct 14 17:00:00 MST 1582
+INFO - ---------------------------
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - ---------------------------
+INFO - About to retrieve all greetings!
+INFO - Greetings[greetingText = Hello World!!]
+INFO - About to create a Hibernate Session
+INFO - ---------------------------
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - ---------------------------
+INFO - About to retrieve all greetings!
+INFO - Greetings[greetingText = Hello World!!]
+INFO - About to create a Hibernate Session
+INFO - ---------------------------
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - ---------------------------
+INFO - About to retrieve all greetings!
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - About to create a Hibernate Session
+INFO - ---------------------------
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - ---------------------------
+INFO - About to retrieve all greetings!
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - About to create a Hibernate Session
+INFO - ---------------------------
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - ---------------------------
+INFO - About to retrieve all greetings!
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - About to create a Hibernate Session
+INFO - ---------------------------
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - ---------------------------
+INFO - About to retrieve all greetings!
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - About to create a Hibernate Session
+INFO - ---------------------------
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - ---------------------------
+INFO - About to retrieve all greetings!
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - About to create a Hibernate Session
+INFO - ---------------------------
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - ---------------------------
+INFO - About to retrieve all greetings!
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - About to create a Hibernate Session
+INFO - ---------------------------
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - ---------------------------
+INFO - About to retrieve all greetings!
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - About to create a Hibernate Session
+INFO - ---------------------------
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - ---------------------------
+INFO - About to retrieve all greetings!
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - ---------------------------
+INFO - About to update Greetings with generated Id 1!
+INFO - ---------------------------
+INFO - About to retrieve all greetings after previous update!
+INFO - Greetings[greetingText = Hello Homer!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - ---------------------------
+INFO - About to create a Hibernate Session
+INFO - ---------------------------
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - ---------------------------
+INFO - About to retrieve all greetings!
+INFO - Greetings[greetingText = Hello Homer!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - ---------------------------
+INFO - About to update Greetings with generated Id 1!
+INFO - ---------------------------
+INFO - About to retrieve all greetings after previous update!
+INFO - Greetings[greetingText = Hello Homer!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - ---------------------------
+INFO - About to create a Hibernate Session
+INFO - ---------------------------
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - ---------------------------
+INFO - About to retrieve all greetings!
+INFO - Greetings[greetingText = Hello Homer!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - ---------------------------
+INFO - About to update Greetings with generated Id 1!
+INFO - ---------------------------
+INFO - About to retrieve all greetings after previous update!
+INFO - Greetings[greetingText = Hello Homer!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - ---------------------------
+INFO - About to create a Hibernate Session
+INFO - ---------------------------
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - ---------------------------
+INFO - About to retrieve all greetings!
+INFO - Greetings[greetingText = Hello World!!]
+INFO - ---------------------------
+INFO - About to update Greetings with generated Id 1!
+INFO - ---------------------------
+INFO - About to retrieve all greetings after previous update!
+INFO - Greetings[greetingText = Hello Homer!]
+INFO - ---------------------------
+INFO - About to create a Hibernate Session
+INFO - ---------------------------
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - ---------------------------
+INFO - About to retrieve all greetings!
+INFO - Greetings[greetingText = Hello Homer!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - ---------------------------
+INFO - About to update Greetings with generated Id 1!
+INFO - ---------------------------
+INFO - About to retrieve all greetings after previous update!
+INFO - Greetings[greetingText = Hello Homer!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - ---------------------------
+INFO - About to create a Hibernate Session
+INFO - ---------------------------
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - ---------------------------
+INFO - About to retrieve all greetings!
+INFO - Greetings[greetingText = Hello Homer!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - ---------------------------
+INFO - About to update Greetings with generated Id 1!
+INFO - ---------------------------
+INFO - About to retrieve all greetings after previous update!
+INFO - Greetings[greetingText = Hello Homer!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - ---------------------------
+INFO - About to create a Hibernate Session
+INFO - ---------------------------
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - ---------------------------
+INFO - About to retrieve all greetings!
+INFO - Greetings[greetingText = Hello Homer!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - ---------------------------
+INFO - About to update Greetings with generated Id 1!
+INFO - ---------------------------
+INFO - About to retrieve all greetings after previous update!
+INFO - Greetings[greetingText = Hello Homer!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - ---------------------------
+INFO - About to create a Hibernate Session
+INFO - ---------------------------
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - ---------------------------
+INFO - About to retrieve all greetings!
+INFO - Greetings[greetingText = Hello Homer!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - ---------------------------
+INFO - About to update Greetings with generated Id 1!
+INFO - ---------------------------
+INFO - About to retrieve all greetings after previous update!
+INFO - Greetings[greetingText = Hello Homer!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - ---------------------------
+INFO - About to create a Hibernate Session
+INFO - ---------------------------
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - ---------------------------
+INFO - About to retrieve all greetings!
+INFO - Greetings[greetingText = Hello Homer!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - ---------------------------
+INFO - About to update Greetings with generated Id 1!
+INFO - ---------------------------
+INFO - About to retrieve all greetings after previous update!
+INFO - Greetings[greetingText = Hello Homer!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - ---------------------------
+INFO - About to create a Hibernate Session
+INFO - ---------------------------
+INFO - About to save the greeting!
+INFO - Greeting saved. Check database for data!
+INFO - ---------------------------
+INFO - About to retrieve all greetings!
+INFO - Greetings[greetingText = Hello Homer!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - ---------------------------
+INFO - About to update Greetings with generated Id 1!
+INFO - ---------------------------
+INFO - About to retrieve all greetings after previous update!
+INFO - Greetings[greetingText = Hello Homer!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - Greetings[greetingText = Hello World!!]
+INFO - ---------------------------
+INFO - About to create a Hibernate Session
+INFO - About to create a Hibernate Session
+INFO - About to create a Hibernate Session
+INFO - About to create a Hibernate Session

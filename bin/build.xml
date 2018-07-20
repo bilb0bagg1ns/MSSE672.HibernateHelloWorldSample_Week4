@@ -1,0 +1,114 @@
+<?xml version="1.0"?>  
+<project name="HibernateHelloWorldSample" default="compile" basedir="../..">  
+
+  <!-- ========================================
+        Project Properties
+       ========================================  -->
+
+     <property name="home"                   value="HibernateHelloWorldSample"/>
+     <property name="hibernate.home"         value="E:\Downloads\Hibernate\hibernate-3.1"/>
+     <property name="src.dir"                value="${home}/src"/> 
+     <property name="config.dir"             value="${home}/config"/>      
+     <property name="build.dir"              value="${home}/classes"/>
+     <property name="lib.dir"                value="${home}/lib"/>
+     <property name="hibernate.lib.dir"      value="${hibernate.home}/lib"/>
+
+
+
+  <!-- ===================================================================
+       build the various classpaths needed  - these are the pieces
+       =================================================================== -->
+
+     <!-- stuff from the project itself - any ext jars, etc. DO NOT put the
+          project classes directory here, or anywhere -->
+     <path id="classpath.project.ref">
+       <fileset dir="${lib.dir}" >
+         <include name="**/*.jar" />
+         <include name="**/*.zip" />
+       </fileset >
+       <fileset dir="${hibernate.lib.dir}" >  <!-- Include all hibernate library classes -->
+         <include name="**/*.jar" />
+         <include name="**/*.zip" />
+       </fileset >
+       <fileset dir="${hibernate.home}" >     <!-- Include hibernate.jar -->
+         <include name="**/*.jar" />
+         <include name="**/*.zip" />
+       </fileset >       
+     </path>
+
+  <!-- ===================================================================
+       assemble the actual classpaths from the bits and pieces defined above.
+       Change these based on whether or not you're using commerce server or not,
+       or other optional features.
+       =================================================================== -->
+     <path id="classpath.compile.ref">
+       <path refid="classpath.project.ref" />
+     </path>
+
+
+     <target name="init">   
+         <mkdir dir="${build.dir}" />
+     </target>
+
+
+  <!-- ===================================================================
+       Creates the build directory if necessary
+       =================================================================== -->
+    <target name="prepare" depends="init">
+      <mkdir dir="${build.dir}" />
+      <mkdir dir="${build.dir}/config" />
+      <mkdir dir="${home}/logs" />
+    </target>
+
+
+  <!-- ===================================================================
+       Deletes all of the *.class files the build directory, but doesn't
+       delete the empty directory tree, or any other files in the tree. If
+       *.properties and *.xml files are to be deleted too, then add a
+       fileset tag for them too.
+       =================================================================== -->
+     <target name="clean" depends="prepare">
+       <delete>
+         <fileset dir="${build.dir}/com/hibernatesample" includes="**/*.class" />
+     </delete>
+     </target>
+
+
+  <!-- ===================================================================
+       Compiles.
+       =================================================================== -->
+     
+     <!-- Compile the java code -->
+     <target name="compile" depends="prepare">  
+          <javac srcdir="${src.dir}" destdir="${build.dir}" >
+            <classpath>
+              <path refid="classpath.compile.ref" />
+            </classpath>
+          </javac> 
+     </target>
+
+    <!-- Copy config directory contents to classes\config directory -->
+    <copy todir="${build.dir}/config">
+          <fileset dir="${config.dir}">
+           <include name="**/*"/>
+          </fileset>
+    </copy>
+
+
+
+ <!-- ===================================================================
+       Runs TestHibernate
+       =================================================================== -->
+     <!-- Run the java code -->
+     <target name="runTestHibernate" depends="compile">
+       <java classname="com.hibernatesample.driver.HibernateDriver" fork="yes" >
+         <classpath>
+           <path location="${build.dir}" />
+           <path refid="classpath.compile.ref" />
+         </classpath>
+       </java>
+     </target> 
+
+
+
+</project>
